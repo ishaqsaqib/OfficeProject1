@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Mukta+Vaani&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Bootstrap Sidebar</title>
+</head>
+<body>
+  <style>
+
+  </style>
+  <div class="grid-container">  
+<div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 350px; height: auto;">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white font-family: 'Mukta Vaani';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;">
+    <img src="images/sidebar.png" alt="sidebar-img">
+      <span class="fs-4"></span>
+    </a>
+    <div class="sidenav-menu-heading">Manage</div>
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item">
+        <a href="#" class="nav-link text-white" aria-current="page">
+          <img class="img" src="images/athletes.png" alt="athletes-img">
+          Athletes
+        </a>
+      </li>
+      <li class="Teams" data-target="#teams">
+        <a href="" class="nav-link active text-white">
+         <img class="img" src="images/teams.png" alt="teams-img">
+          Teams
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <img class="img" src="images/calender.png" alt="calendar-img">
+          Calender
+        </a>
+      </li>
+      <div class="sidenav-menu-heading">Library</div>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <img class="img" src="images/exercise.png" alt="exercise-img">
+          Exercises
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <img class="img" src="images/workouts.png" alt="workouts-img">
+          Workouts
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link text-white">
+          <img class="img" src="images/nutrition.png" alt="nutrition-img">
+          Nutrition
+        </a>
+        </li>
+        <li>
+            <a href="#" class="nav-link text-white">
+              <img class="img" src="images/wellness.png" alt="nutrition-img">
+              Wellness
+            </a>
+            </li>
+            <div class="sidenav-menu-heading">Analyze</div>
+            <li>
+                <a href="#" class="nav-link text-white">
+                  <img class="img" src="images/reports.png" alt="Reports-img">
+                  Reports
+                </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                      <img class="img" src="images/testing.png" alt="testing-img">
+                      Testing
+                    </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white">
+                          <img class="img" src="images/insights.png" alt="Insights-img">
+                          Insights
+                        </a>
+                        </li>
+    </ul>
+  </div>
+<div class="content">
+  
+
+  <div class="row">
+    <div class="col-6">  
+      <h2>Teams</h2> 
+    </div>
+    <div class="col-6 d-flex" style="justify-content: end;">  
+      <div class="dropdown_btn">
+        <button type="button" class="btn btn-secondary dropdown-toggle d-flex" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <h4>Springfield Hawks</h4>
+        </button>
+    
+        <div class="dropdown-menu dropdown-menu-right">
+          <button class="dropdown-item" type="button">Action</button>
+          <button class="dropdown-item" type="button">Another action</button>
+          <button class="dropdown-item" type="button">Something else here</button>
+        </div>
+        <div>
+          <!-- <img src="images/baseball-bat.png" alt=""> BASEBALL, HIGHSCHOOL -->
+          <div><img class="img" src="images/baseball-bat.png" alt=""><h5>BASEBALL,HIGHSCHOOL</h5></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Alexander -->
+  <img class="round-img" src="images/alexander.png" alt="alexander-img">
+  <div class="row">
+    <div class="col-3">
+      <h4>Alexander Abbott</h4>
+    </div>
+    <div class="col-3">
+      <h6>Pitcher</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h5>15 years, Freshman</h5>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-6"> 
+      
+  <p>EMERGENCY CONTACT</p>
+  <div class="row">
+    <div class="col-4">
+      <h6>J'bron Abbott</h6>
+    </div>
+    <div class="col-4">
+      <img class="phone-icon" src="images/phone.png" alt=""><a href="">(555)-555-123</a>
+    </div>
+  </div>
+    </div>
+    <div class="col-6"> 
+      <p>Other Teams</p>
+      <p><img class="side-img" src="images/baseball.png" alt="baseball-img">
+        <img class="side-img" src="images/swimming.png" alt="swimming-img">
+        <img class="side-img" src="images/ends.png" alt="ends"> Ends May 4th</p>
+    
+    </div>
+  </div>
+  <hr>
+
+
+  <!-- James -->
+
+
+  <img class="round-img" src="images/alexander.png" alt="alexander-img">
+  <div class="row">
+    <div class="col-3">
+      <h4>James Berstein</h4>
+    </div>
+    <div class="col-3">
+      <h6>3B</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h5>15 years, Freshman</h5>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-6"> 
+      
+  <p>EMERGENCY CONTACT</p>
+  <div class="row">
+    <div class="col-4">
+      <h6>Sandra Brown</h6>
+    </div>
+    <div class="col-4">
+      <img class="phone-icon" src="images/phone.png" alt=""><a href="">(555)-555-123</a>
+    </div>
+  </div>
+    </div>
+    <div class="col-6"> 
+      <p>Other Teams</p>
+      <p><img class="side-img" src="images/baseball.png" alt="baseball-img">
+        <img class="side-img" src="images/racquet.png" alt="ends"> Ends May 4th</p>
+    
+    </div>
+  </div>
+  <hr>
+
+  <!-- Todd -->
+
+  <img class="round-img" src="images/alexander.png" alt="alexander-img">
+  <div class="row">
+    <div class="col-3">
+      <h4>Todd Casey</h4>
+    </div>
+    <div class="col-3">
+      <h6>SS</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h5>15 years, Freshman</h5>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-6"> 
+      
+  <p>EMERGENCY CONTACT</p>
+  <div class="row">
+    <div class="col-4">
+      <h6>Emiley Casey</h6>
+    </div>
+    <div class="col-4">
+      <img class="phone-icon" src="images/phone.png" alt=""><a href="">(555)-555-123</a>
+    </div>
+  </div>
+    </div>
+    <div class="col-6"> 
+      <p>Other Teams</p>
+      <p><img class="side-img" src="images/baseball.png" alt="baseball-img"></p>
+    
+    </div>
+  </div>
+  <hr>
+
+  <!-- Jose Juarez -->
+
+
+  <img class="round-img" src="images/alexander.png" alt="alexander-img">
+  <div class="row">
+    <div class="col-3">
+      <h4>Jose Juarez</h4>
+    </div>
+    <div class="col-3">
+      <h6>CF</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h5>15 years, Freshman</h5>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-6"> 
+      
+  <p>EMERGENCY CONTACT</p>
+  <div class="row">
+    <div class="col-4">
+      <h6>Gerson Juarez</h6>
+    </div>
+    <div class="col-4">
+      <img class="phone-icon" src="images/phone.png" alt=""><a href="">(555)-555-123</a>
+    </div>
+  </div>
+    </div>
+    <div class="col-6"> 
+      <p>Other Teams</p>
+      <p><img class="side-img" src="images/swimming.png" alt="swimming-img"></p>
+    
+    </div>
+  </div>
+  <hr>
+
+  <!-- Sam Robertson -->
+
+  <img class="round-img" src="images/alexander.png" alt="alexander-img">
+  <div class="row">
+    <div class="col-3">
+      <h4>Sam Robertson</h4>
+    </div>
+    <div class="col-3">
+      <h6>LF</h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h5>14 years, Freshman</h5>
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-6"> 
+      
+  <p>EMERGENCY CONTACT</p>
+  <div class="row">
+    <div class="col-4">
+      <h6>Brian Robinson</h6>
+    </div>
+    <div class="col-4">
+      <img class="phone-icon" src="images/phone.png" alt=""><a href="">(555)-555-123</a>
+    </div>
+  </div>
+    </div>
+    <div class="col-6"> 
+      <p>Other Teams</p>
+      <p>NONE</p>
+    
+    </div>
+  </div>
+  <hr>
+
+</div>
+</div>
+</body>
+</html>
